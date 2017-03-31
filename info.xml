@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<extension key="io.callhub.phonebanking" type="module">
+  <downloadUrl>https://github.com/callhub/io.callhub.phonebanking/archive/1.0.zip</downloadUrl>
+  <file>phonebanking</file>
+  <name>CallHub Phone Banking</name>
+  <description>CallHub is a hosted phone banking service that enables your staff to talk with your contacts over the phone banking campaign and store notes about the call. This extension integrates CallHub with CiviCRM by posting call dispositions and notes as CiviCRM activities attached to the contact record and assigned to the relevant staff person's record.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Gaglers Inc</author>
+    <email>support@callhub.io</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://callhub.io/civicrm-extension/</url>
+    <url desc="Documentation">https://help.callhub.io/v1.0/page/how-to-use-civicrm-integration</url>
+    <url desc="Support">https://callhub.io/support/</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2017-03-31</releaseDate>
+  <version>1.0</version>
+  <develStage>beta</develStage>
+  <compatibility>
+    <ver>4.6</ver>
+    <ver>4.7</ver>
+  </compatibility>
+  <civix>
+    <namespace>CRM/Phonebanking</namespace>
+  </civix>
+</extension>
