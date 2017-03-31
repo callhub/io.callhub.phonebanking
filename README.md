@@ -15,7 +15,9 @@ Installation
 7. On the ['integrations page'](https://app.callhub.io/dashboard/apps/) in your CallHub account, click on “Connect to your CiviCRM site”. There are 3 things you need to connect:
 
     a. Site URL. This should be the full path to extern/rest.php. For example, http://<YOUR_SITE_NAME>/civicrm/sites/all/modules/civicrm/extern/rest.php
+
     b. Site Key. The unique key that identifies your CiviCRM installation.
+
     c. API Key. The API key created in step 4 above.
 
 8. After CiviCRM is connected, CallHub will import groups, events and campaigns from CiviCRM. 
@@ -23,6 +25,9 @@ Installation
 10. The activities synced from CallHub have the following attributes:
 
     a. Notes: The notes include a link to audio recording, the actual notes taken by your staff and the Call Disposition.
+
     b. date and time: activities always happen at a certain point in time
+
     c. added by: the staff who added this activity
+
     d. with contact(s): the contacts in your database that are the subject of the activity.
