@@ -1,4 +1,4 @@
-<?xml version="v1.0"?>
+<?xml version="1.0"?>
 <extension key="io.callhub.phonebanking" type="module">
   <file>phonebanking</file>
   <name>CallHub Phone Banking</name>
